@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-29T17:20:49 IST" name="Suite" finished-at="2024-08-29T17:23:14 IST" duration-ms="144296">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T17:20:49 IST" name="Test" finished-at="2024-08-29T17:23:14 IST" duration-ms="144296">
+      <class name="testCase_POM.TestCase2">
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:testCase_POM.TestCase2@6bd61f98]" started-at="2024-08-29T17:21:41 IST" name="Launch_Browser" finished-at="2024-08-29T17:21:53 IST" duration-ms="11409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method signature="search_product()[pri:0, instance:testCase_POM.TestCase2@6bd61f98]" started-at="2024-08-29T17:21:53 IST" name="search_product" finished-at="2024-08-29T17:22:50 IST" duration-ms="56979" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_product -->
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:testCase_POM.TestCase2@6bd61f98]" started-at="2024-08-29T17:22:50 IST" name="quit_browser" finished-at="2024-08-29T17:22:52 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_browser -->
+      </class> <!-- testCase_POM.TestCase2 -->
+      <class name="testCase_POM.TestCase1">
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:testCase_POM.TestCase1@48aca48b]" started-at="2024-08-29T17:22:52 IST" name="Launch_Browser" finished-at="2024-08-29T17:23:01 IST" duration-ms="8677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method signature="login_amazon()[pri:0, instance:testCase_POM.TestCase1@48aca48b]" started-at="2024-08-29T17:23:01 IST" name="login_amazon" finished-at="2024-08-29T17:23:08 IST" duration-ms="7404" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_amazon -->
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:testCase_POM.TestCase1@48aca48b]" started-at="2024-08-29T17:23:12 IST" name="quit_browser" finished-at="2024-08-29T17:23:14 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_browser -->
+      </class> <!-- testCase_POM.TestCase1 -->
+      <class name="testCase_POM.TestCase4">
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:testCase_POM.TestCase4@5a56cdac]" started-at="2024-08-29T17:20:49 IST" name="Launch_Browser" finished-at="2024-08-29T17:20:57 IST" duration-ms="7912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method signature="purchase()[pri:0, instance:testCase_POM.TestCase4@5a56cdac]" started-at="2024-08-29T17:20:57 IST" name="purchase" finished-at="2024-08-29T17:21:16 IST" duration-ms="19070" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:testCase_POM.TestCase4@5a56cdac]" started-at="2024-08-29T17:21:17 IST" name="quit_browser" finished-at="2024-08-29T17:21:19 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_browser -->
+      </class> <!-- testCase_POM.TestCase4 -->
+      <class name="testCase_POM.TestCase3">
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:testCase_POM.TestCase3@4efac082]" started-at="2024-08-29T17:21:19 IST" name="Launch_Browser" finished-at="2024-08-29T17:21:28 IST" duration-ms="9706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method signature="register()[pri:0, instance:testCase_POM.TestCase3@4efac082]" started-at="2024-08-29T17:21:28 IST" name="register" finished-at="2024-08-29T17:21:39 IST" duration-ms="10537" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="quit_browser()[pri:0, instance:testCase_POM.TestCase3@4efac082]" started-at="2024-08-29T17:21:39 IST" name="quit_browser" finished-at="2024-08-29T17:21:41 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_browser -->
+      </class> <!-- testCase_POM.TestCase3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
