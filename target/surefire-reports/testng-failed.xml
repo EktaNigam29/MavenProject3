@@ -5,9 +5,9 @@
     <classes>
       <class name="testCase_POM.TestCase3">
         <methods>
-          <include name="Launch_Browser"/>
+          <include name="post1"/>
           <include name="register"/>
-          <include name="quit_browser"/>
+          <include name="launch"/>
         </methods>
       </class> <!-- testCase_POM.TestCase3 -->
     </classes>

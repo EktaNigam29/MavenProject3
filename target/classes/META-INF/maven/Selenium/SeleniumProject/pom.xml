@@ -41,8 +41,8 @@
     <version>5.2.3</version>
 </dependency>
 <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
+    <groupId>org.testng1</groupId>
+    <artifactId>testng1</artifactId>
     <version>7.8.0</version>
     <scope>test</scope>
 </dependency>
@@ -93,7 +93,7 @@
 					<version>3.0.0-M7</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>testng1.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					</configuration>
 		</plugin>
