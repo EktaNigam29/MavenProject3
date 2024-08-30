@@ -7,9 +7,6 @@
       <class name="testCase_POM.TestCase3"/>
       <class name="testCase_POM.TestCase2"/>
       <class name="testCase_POM.TestCase1"/>
-      <class name="utility_packages.DataDrivenTesting"/>
-   
-      <class name="utility_packages.RetryLogic"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

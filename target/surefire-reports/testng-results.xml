@@ -14,74 +14,74 @@
       <![CDATA[test case is pass]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-08-30T15:56:36 IST" name="Suite" finished-at="2024-08-30T15:58:29 IST" duration-ms="112646">
+  <suite started-at="2024-08-30T16:10:28 IST" name="Suite" finished-at="2024-08-30T16:12:28 IST" duration-ms="119512">
     <groups>
     </groups>
-    <test started-at="2024-08-30T15:56:36 IST" name="Test" finished-at="2024-08-30T15:58:29 IST" duration-ms="112646">
+    <test started-at="2024-08-30T16:10:28 IST" name="Test" finished-at="2024-08-30T16:12:28 IST" duration-ms="119512">
       <class name="testCase_POM.TestCase2">
-        <test-method is-config="true" signature="launch()[pri:0, instance:testCase_POM.TestCase2@6bd61f98]" started-at="2024-08-30T15:57:18 IST" name="launch" finished-at="2024-08-30T15:57:27 IST" duration-ms="9254" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:testCase_POM.TestCase2@d9345cd]" started-at="2024-08-30T16:11:17 IST" name="launch" finished-at="2024-08-30T16:11:25 IST" duration-ms="7978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="search_product()[pri:0, instance:testCase_POM.TestCase2@6bd61f98]" started-at="2024-08-30T15:57:27 IST" name="search_product" finished-at="2024-08-30T15:58:07 IST" duration-ms="39674" status="PASS">
+        <test-method signature="search_product()[pri:0, instance:testCase_POM.TestCase2@d9345cd]" started-at="2024-08-30T16:11:25 IST" name="search_product" finished-at="2024-08-30T16:12:06 IST" duration-ms="40954" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- search_product -->
-        <test-method is-config="true" signature="post1()[pri:0, instance:testCase_POM.TestCase2@6bd61f98]" started-at="2024-08-30T15:58:07 IST" name="post1" finished-at="2024-08-30T15:58:08 IST" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="post1()[pri:0, instance:testCase_POM.TestCase2@d9345cd]" started-at="2024-08-30T16:12:06 IST" name="post1" finished-at="2024-08-30T16:12:07 IST" duration-ms="547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post1 -->
       </class> <!-- testCase_POM.TestCase2 -->
       <class name="testCase_POM.TestCase1">
-        <test-method is-config="true" signature="launch()[pri:0, instance:testCase_POM.TestCase1@48aca48b]" started-at="2024-08-30T15:58:08 IST" name="launch" finished-at="2024-08-30T15:58:18 IST" duration-ms="10416" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:testCase_POM.TestCase1@2d710f1a]" started-at="2024-08-30T16:12:07 IST" name="launch" finished-at="2024-08-30T16:12:16 IST" duration-ms="9330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_amazon()[pri:0, instance:testCase_POM.TestCase1@48aca48b]" started-at="2024-08-30T15:58:18 IST" name="login_amazon" finished-at="2024-08-30T15:58:24 IST" duration-ms="6058" status="PASS">
+        <test-method signature="login_amazon()[pri:0, instance:testCase_POM.TestCase1@2d710f1a]" started-at="2024-08-30T16:12:16 IST" name="login_amazon" finished-at="2024-08-30T16:12:27 IST" duration-ms="11288" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- login_amazon -->
-        <test-method is-config="true" signature="post1()[pri:0, instance:testCase_POM.TestCase1@48aca48b]" started-at="2024-08-30T15:58:29 IST" name="post1" finished-at="2024-08-30T15:58:29 IST" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="post1()[pri:0, instance:testCase_POM.TestCase1@2d710f1a]" started-at="2024-08-30T16:12:27 IST" name="post1" finished-at="2024-08-30T16:12:28 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post1 -->
       </class> <!-- testCase_POM.TestCase1 -->
       <class name="testCase_POM.TestCase4">
-        <test-method is-config="true" signature="launch()[pri:0, instance:testCase_POM.TestCase4@5a56cdac]" started-at="2024-08-30T15:56:36 IST" name="launch" finished-at="2024-08-30T15:56:48 IST" duration-ms="11175" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:testCase_POM.TestCase4@5d0a1059]" started-at="2024-08-30T16:10:28 IST" name="launch" finished-at="2024-08-30T16:10:39 IST" duration-ms="11032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="purchase()[pri:0, instance:testCase_POM.TestCase4@5a56cdac]" started-at="2024-08-30T15:56:48 IST" name="purchase" finished-at="2024-08-30T15:57:00 IST" duration-ms="12247" status="PASS">
+        <test-method signature="purchase()[pri:0, instance:testCase_POM.TestCase4@5d0a1059]" started-at="2024-08-30T16:10:39 IST" name="purchase" finished-at="2024-08-30T16:10:56 IST" duration-ms="16228" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- purchase -->
-        <test-method is-config="true" signature="post1()[pri:0, instance:testCase_POM.TestCase4@5a56cdac]" started-at="2024-08-30T15:57:00 IST" name="post1" finished-at="2024-08-30T15:57:01 IST" duration-ms="604" status="PASS">
+        <test-method is-config="true" signature="post1()[pri:0, instance:testCase_POM.TestCase4@5d0a1059]" started-at="2024-08-30T16:10:56 IST" name="post1" finished-at="2024-08-30T16:10:56 IST" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post1 -->
       </class> <!-- testCase_POM.TestCase4 -->
       <class name="testCase_POM.TestCase3">
-        <test-method is-config="true" signature="launch()[pri:0, instance:testCase_POM.TestCase3@4efac082]" started-at="2024-08-30T15:57:01 IST" name="launch" finished-at="2024-08-30T15:57:10 IST" duration-ms="9481" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:testCase_POM.TestCase3@428640fa]" started-at="2024-08-30T16:10:56 IST" name="launch" finished-at="2024-08-30T16:11:05 IST" duration-ms="8955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="register()[pri:0, instance:testCase_POM.TestCase3@4efac082]" started-at="2024-08-30T15:57:10 IST" name="register" finished-at="2024-08-30T15:57:18 IST" duration-ms="7572" status="PASS">
+        <test-method signature="register()[pri:0, instance:testCase_POM.TestCase3@428640fa]" started-at="2024-08-30T16:11:05 IST" name="register" finished-at="2024-08-30T16:11:16 IST" duration-ms="10984" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="post1()[pri:0, instance:testCase_POM.TestCase3@4efac082]" started-at="2024-08-30T15:57:18 IST" name="post1" finished-at="2024-08-30T15:57:18 IST" duration-ms="284" status="PASS">
+        <test-method is-config="true" signature="post1()[pri:0, instance:testCase_POM.TestCase3@428640fa]" started-at="2024-08-30T16:11:16 IST" name="post1" finished-at="2024-08-30T16:11:17 IST" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post1 -->
