@@ -9,38 +9,13 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">83,966</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">112,646</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">testCase_POM.TestCase3</td><td><a href="#m0">register</a></td><td rowspan="1">1724989713205</td><td rowspan="1">3512</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCase_POM.TestCase1</td><td><a href="#m1">login_amazon</a></td><td rowspan="1">1724989765727</td><td rowspan="1">4462</td></tr><tr class="passedodd"><td rowspan="1">testCase_POM.TestCase2</td><td><a href="#m2">search_product</a></td><td rowspan="1">1724989731686</td><td rowspan="1">28963</td></tr><tr class="passedeven"><td rowspan="1">testCase_POM.TestCase3</td><td><a href="#m3">register</a></td><td rowspan="1">1724989722624</td><td rowspan="1">3522</td></tr><tr class="passedodd"><td rowspan="1">testCase_POM.TestCase4</td><td><a href="#m4">purchase</a></td><td rowspan="1">1724989696645</td><td rowspan="1">10780</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCase_POM.TestCase1</td><td><a href="#m0">login_amazon</a></td><td rowspan="1">1725013698893</td><td rowspan="1">6058</td></tr><tr class="passedodd"><td rowspan="1">testCase_POM.TestCase2</td><td><a href="#m1">search_product</a></td><td rowspan="1">1725013647925</td><td rowspan="1">39674</td></tr><tr class="passedeven"><td rowspan="1">testCase_POM.TestCase3</td><td><a href="#m2">register</a></td><td rowspan="1">1725013630688</td><td rowspan="1">7572</td></tr><tr class="passedodd"><td rowspan="1">testCase_POM.TestCase4</td><td><a href="#m3">purchase</a></td><td rowspan="1">1725013608160</td><td rowspan="1">12247</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCase_POM.TestCase3#register</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=128.0.6613.113)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7e406b06eaf2ad00be72e108788a99cb, clickElement {id=f.07016890B65861C810D38FB71B3A6898.d.A26FCA6DF7AFA443668C0A7A9E201B40.e.6026}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\EKTA\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59229/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7e406b06eaf2ad00be72e108788a99cb)] -&gt; xpath: //input[@class=&apos;a-button-input&apos;]]
-Session ID: 7e406b06eaf2ad00be72e108788a99cb
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
-	at Amazon_POM.Registration.cont1(Registration.java:61)
-	at testCase_POM.TestCase3.register(TestCase3.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCase_POM.TestCase1#login_amazon</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCase_POM.TestCase2#search_product</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCase_POM.TestCase3#register</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCase_POM.TestCase4#purchase</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testCase_POM.TestCase1#login_amazon</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCase_POM.TestCase2#search_product</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCase_POM.TestCase3#register</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCase_POM.TestCase4#purchase</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
