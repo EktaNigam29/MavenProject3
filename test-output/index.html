@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase_POM.TestCase3" class="method navigator-link" hash-for-method="register">register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -134,6 +148,117 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCase_POM.TestCase3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register">
+                  </a> <!-- register -->
+                  <span class="method-name">register</span>
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e99b59655f622f33b29fde6fe3762e0, actions {actions=[org.openqa.selenium.interactions.Sequence@7e053511]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\EKTA\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55878}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55878/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e99b59655f622f33b29fde6fe3762e0
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+	at java.base/java.util.Map.forEach(Map.java:713)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+	at org.openqa.selenium.json.Json.toJson(Json.java:133)
+	at org.openqa.selenium.json.Json.toJson(Json.java:119)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:613)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+	at Amazon_POM.HOmepage_amazon.accountandlist(HOmepage_amazon.java:31)
+	at testCase_POM.TestCase3.register(TestCase3.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+		at org.openqa.selenium.json.Json.toJson(Json.java:131)
+		... 40 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+	... 61 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav\-link\-accountList&quot;}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e99b59655f622f33b29fde6fe3762e0, findElement {using=id, value=nav-link-accountList}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\EKTA\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55878}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55878/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e99b59655f622f33b29fde6fe3762e0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	... 66 more
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase_POM.TestCase3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register">
+                  </a> <!-- register -->
+                  <span class="method-name">register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -160,21 +285,6 @@
                   <a name="purchase">
                   </a> <!-- purchase -->
                   <span class="method-name">purchase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCase_POM.TestCase3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="register">
-                  </a> <!-- register -->
-                  <span class="method-name">register</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,6 +320,9 @@
       &lt;class name=&quot;testCase_POM.TestCase3&quot;/&gt;
       &lt;class name=&quot;testCase_POM.TestCase2&quot;/&gt;
       &lt;class name=&quot;testCase_POM.TestCase1&quot;/&gt;
+      &lt;class name=&quot;utility_packages.DataDrivenTesting&quot;/&gt;
+      &lt;class name=&quot;utility_packages.Listen1&quot;/&gt;
+      &lt;class name=&quot;utility_packages.RetryLogic&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -223,7 +336,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,23 +362,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'search_product')
 data.setCell(0, 2, 'testCase_POM.TestCase2')
-data.setCell(0, 3, 48778);
+data.setCell(0, 3, 43897);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'purchase')
 data.setCell(1, 2, 'testCase_POM.TestCase4')
-data.setCell(1, 3, 15706);
+data.setCell(1, 3, 14650);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'register')
 data.setCell(2, 2, 'testCase_POM.TestCase3')
-data.setCell(2, 3, 11652);
+data.setCell(2, 3, 10744);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'login_amazon')
 data.setCell(3, 2, 'testCase_POM.TestCase1')
-data.setCell(3, 3, 9109);
+data.setCell(3, 3, 8979);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'register')
+data.setCell(4, 2, 'testCase_POM.TestCase3')
+data.setCell(4, 3, 8098);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -288,6 +405,12 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
+              <span class="reporter-method-name">register</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">test case is pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">login_amazon</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">test case is pass</span>
@@ -295,12 +418,6 @@ return data;
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">search_product</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">test case is pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">register</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">test case is pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -327,56 +444,68 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">purchase</span>
-                <span class="method-start">8731 ms</span>
+                <span class="method-start">8615 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post1</span>
-                <span class="method-start">24611 ms</span>
+                <span class="method-start">24192 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase_POM.TestCase3</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">24976 ms</span>
+                <span class="method-start">25554 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">register</span>
-                <span class="method-start">34935 ms</span>
+                <span class="method-start">39783 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post1</span>
-                <span class="method-start">46710 ms</span>
+                <span class="method-start">50533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">51463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">register</span>
+                <span class="method-start">60535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">post1</span>
+                <span class="method-start">68772 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase_POM.TestCase2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">47003 ms</span>
+                <span class="method-start">69005 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">search_product</span>
-                <span class="method-start">55380 ms</span>
+                <span class="method-start">77429 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post1</span>
-                <span class="method-start">104276 ms</span>
+                <span class="method-start">121468 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCase_POM.TestCase1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">104713 ms</span>
+                <span class="method-start">121928 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_amazon</span>
-                <span class="method-start">113818 ms</span>
+                <span class="method-start">130756 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post1</span>
-                <span class="method-start">126159 ms</span>
+                <span class="method-start">145317 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -9,13 +9,93 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">126,579</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">146,410</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCase_POM.TestCase1</td><td><a href="#m0">login_amazon</a></td><td rowspan="1">1725014252450</td><td rowspan="1">9109</td></tr><tr class="passedodd"><td rowspan="1">testCase_POM.TestCase2</td><td><a href="#m1">search_product</a></td><td rowspan="1">1725014194012</td><td rowspan="1">48778</td></tr><tr class="passedeven"><td rowspan="1">testCase_POM.TestCase3</td><td><a href="#m2">register</a></td><td rowspan="1">1725014173567</td><td rowspan="1">11652</td></tr><tr class="passedodd"><td rowspan="1">testCase_POM.TestCase4</td><td><a href="#m3">purchase</a></td><td rowspan="1">1725014147363</td><td rowspan="1">15706</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">testCase_POM.TestCase3</td><td><a href="#m0">register</a></td><td rowspan="1">1725015426772</td><td rowspan="1">10744</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCase_POM.TestCase1</td><td><a href="#m1">login_amazon</a></td><td rowspan="1">1725015517745</td><td rowspan="1">8979</td></tr><tr class="passedodd"><td rowspan="1">testCase_POM.TestCase2</td><td><a href="#m2">search_product</a></td><td rowspan="1">1725015464418</td><td rowspan="1">43897</td></tr><tr class="passedeven"><td rowspan="1">testCase_POM.TestCase3</td><td><a href="#m3">register</a></td><td rowspan="1">1725015447524</td><td rowspan="1">8098</td></tr><tr class="passedodd"><td rowspan="1">testCase_POM.TestCase4</td><td><a href="#m4">purchase</a></td><td rowspan="1">1725015395604</td><td rowspan="1">14650</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCase_POM.TestCase1#login_amazon</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCase_POM.TestCase2#search_product</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCase_POM.TestCase3#register</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCase_POM.TestCase4#purchase</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testCase_POM.TestCase3#register</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e99b59655f622f33b29fde6fe3762e0, actions {actions=[org.openqa.selenium.interactions.Sequence@7e053511]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\EKTA\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55878}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55878/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e99b59655f622f33b29fde6fe3762e0
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+	at java.base/java.util.Map.forEach(Map.java:713)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+	at org.openqa.selenium.json.Json.toJson(Json.java:133)
+	at org.openqa.selenium.json.Json.toJson(Json.java:119)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:613)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+	at Amazon_POM.HOmepage_amazon.accountandlist(HOmepage_amazon.java:31)
+	at testCase_POM.TestCase3.register(TestCase3.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+		at org.openqa.selenium.json.Json.toJson(Json.java:131)
+		... 40 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+	... 61 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav\-link\-accountList&quot;}
+  (Session info: chrome=128.0.6613.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e99b59655f622f33b29fde6fe3762e0, findElement {using=id, value=nav-link-accountList}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\EKTA\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55878}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55878/devtoo..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e99b59655f622f33b29fde6fe3762e0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	... 66 more
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCase_POM.TestCase1#login_amazon</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCase_POM.TestCase2#search_product</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCase_POM.TestCase3#register</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCase_POM.TestCase4#purchase</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test case is pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
